@@ -9,5 +9,6 @@ class Solution {
                 odd_min++;
             }
         }
+        return  Math.min(eve_min,odd_min);
     }
 }
